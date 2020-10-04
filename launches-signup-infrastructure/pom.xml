@@ -8,29 +8,14 @@
 	    <version>0.0.1-SNAPSHOT</version>
 	</parent>
 	
-	<artifactId>launches-signup-api</artifactId>
+	<artifactId>launches-signup-infrastructure</artifactId>
 	<packaging>jar</packaging>
-	<name>launches-signup-api</name>
+	<name>launches-signup-infrastructure</name>
 
 	<properties>
 		<java.version>11</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<artifactId>maven-surefire-plugin</artifactId>
-			  	<configuration>
-			    	<useFile>false</useFile>
-			  	</configuration>
-			</plugin>
-		</plugins>
-	</build>
 
 </project>

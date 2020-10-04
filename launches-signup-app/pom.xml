@@ -18,17 +18,19 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 
+	<dependencies>
+		<dependency>
+			<groupId>com.launches.signup.service</groupId>
+			<artifactId>launches-signup-infrastructure</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-			<plugin>
-				<artifactId>maven-surefire-plugin</artifactId>
-			  	<configuration>
-			    	<useFile>false</useFile>
-			  	</configuration>
 			</plugin>
 		</plugins>
 	</build>
