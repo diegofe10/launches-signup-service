@@ -1,4 +1,4 @@
-spring:  application:    name: launches-signup-app  jpa:    database: MYSQL    show-sql: true  datasource:    driver-class-name: com.mysql.cj.jdbc.Driver    url: jdbc:mysql://localhost/db_launches?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=America/Sao_Paulo  
+spring:  application:    name: launches-signup-app  jpa:    generate-ddl: true    hibernate:      ddl-auto: create    database: MYSQL    show-sql: true  datasource:    driver-class-name: com.mysql.cj.jdbc.Driver    url: jdbc:mysql://192.168.99.100/db_launches?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=America/Sao_Paulo  
     username: root    password: rootserver:
   port: 8080  servlet:    context-path: /v1  
   

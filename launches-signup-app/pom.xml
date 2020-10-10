@@ -21,6 +21,11 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.launches.signup.service</groupId>
+			<artifactId>launches-signup-domain</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.launches.signup.service</groupId>
 			<artifactId>launches-signup-infrastructure</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
