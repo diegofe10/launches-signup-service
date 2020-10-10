@@ -18,6 +18,7 @@
 	<modules>
 		<module>launches-signup-app</module>
 		<module>launches-signup-infrastructure</module>
+		<module>launches-signup-domain</module>
   	</modules>
 
 	<properties>
