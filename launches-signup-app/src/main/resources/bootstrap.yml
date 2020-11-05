@@ -1,4 +1,4 @@
 app.cors.enabled=true
 spring:
   application:
-    name: launches-signup-app
+    name: launches-signup-service
