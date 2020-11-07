@@ -39,7 +39,7 @@ public class BasicInformationController {
 	@PostMapping("/create")
 	public void create(@Valid @RequestBody BasicInformation basicInformation, 
 			HttpServletResponse response) throws ParseException {
-		logger.info("Invoke save() method, for create a new basic information.");
+		logger.info("Invoke create() method, for create a new basic information.");
 		basicInformationService.save(basicInformation);
 	}
 	
