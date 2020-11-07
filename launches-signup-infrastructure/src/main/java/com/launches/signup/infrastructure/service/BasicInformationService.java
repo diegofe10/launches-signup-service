@@ -11,6 +11,11 @@ import org.springframework.transaction.annotation.Transactional;
 import com.launches.signup.domain.entity.BasicInformation;
 import com.launches.signup.infrastructure.repository.BasicInformationRepository;
 
+/**
+ * @author <a href="mailto:dafediegogean@gmail.com">Diego Gean da Fé</a>
+ * @version
+ * @since 04 de out de 2020, 00:40:10
+ */
 @Service
 public class BasicInformationService {
 		

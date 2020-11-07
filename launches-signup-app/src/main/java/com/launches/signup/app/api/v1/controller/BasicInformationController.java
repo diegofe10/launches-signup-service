@@ -18,7 +18,7 @@ import com.launches.signup.domain.entity.BasicInformation;
 import com.launches.signup.infrastructure.service.BasicInformationService;
 
 /**
- * @author <a href="mailto:diegogeandafe@gmail.com">Diego Gean da Fé</a>
+ * @author <a href="mailto:dafediegogean@gmail.com">Diego Gean da Fé</a>
  * @version
  * @since 04 de out de 2020, 00:10:10
  */

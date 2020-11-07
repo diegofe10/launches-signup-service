@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 /**
- * @author <a href="mailto:diegogeandafe@gmail.com">Diego Gean da Fé</a>
+ * @author <a href="mailto:dafediegogean@gmail.com">Diego Gean da Fé</a>
  * @version
  * @since 03 de out de 2020, 23:02:10
  */

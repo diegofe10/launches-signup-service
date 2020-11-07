@@ -13,6 +13,11 @@ import javax.persistence.Transient;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * @author <a href="mailto:dafediegogean@gmail.com">Diego Gean da Fé</a>
+ * @version
+ * @since 10 de out de 2020, 18:10:14
+ */
 @Entity
 @Table(name = "tb_basic_information")
 public class BasicInformation {
