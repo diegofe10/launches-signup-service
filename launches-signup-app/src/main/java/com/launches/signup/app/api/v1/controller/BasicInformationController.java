@@ -17,6 +17,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.launches.signup.domain.entity.BasicInformation;
 import com.launches.signup.infrastructure.service.BasicInformationService;
 
+/**
+ * @author <a href="mailto:diegogeandafe@gmail.com">Diego Gean da Fé</a>
+ * @version
+ * @since 04 de out de 2020, 00:10:10
+ */
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/basic-information")
