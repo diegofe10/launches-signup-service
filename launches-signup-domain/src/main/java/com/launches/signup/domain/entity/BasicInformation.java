@@ -1,5 +1,6 @@
 package com.launches.signup.domain.entity;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 
@@ -20,8 +21,13 @@ import com.fasterxml.jackson.annotation.JsonProperty;
  */
 @Entity
 @Table(name = "tb_basic_information")
-public class BasicInformation {
+public class BasicInformation implements Serializable {
 	
+	/**
+	 * Serial UID
+	 */
+	private static final long serialVersionUID = -803245925801596329L;
+
 	@Id
 	@Column(name = "id")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
