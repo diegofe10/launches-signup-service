@@ -3,8 +3,14 @@ package com.launches.signup.domain.entity;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
  * @author <a href="mailto:dafediegogean@gmail.com">Diego Gean da Fé</a>
@@ -20,10 +26,18 @@ public class Launche implements Serializable {
 	 */
 	private static final long serialVersionUID = -584309795221244248L;
 	
+	@JsonProperty("id")
+	@Id
+	@Column(name = "id")
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	private String descricao;
+	@JsonProperty("description")
+	@Column(name = "description")
+	private String description;
 	
+	@JsonProperty("value")
+	@Column(name = "value")
 	private BigDecimal value;
 
 	public Long getId() {
@@ -34,12 +48,12 @@ public class Launche implements Serializable {
 		this.id = id;
 	}
 
-	public String getDescricao() {
-		return descricao;
+	public String getDescription() {
+		return description;
 	}
 
-	public void setDescricao(String descricao) {
-		this.descricao = descricao;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
 	public BigDecimal getValue() {
@@ -77,7 +91,7 @@ public class Launche implements Serializable {
 
 	@Override
 	public String toString() {
-		return "Launches [id=" + id + ", descricao=" + descricao + ", value=" + value + "]";
+		return "Launche [id=" + id + ", description=" + description + ", value=" + value + "]";
 	}
 	
 }
